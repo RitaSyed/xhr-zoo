@@ -7,7 +7,11 @@ const printToDomString = (domString, divId) => {
 const buildDomString = (fancyArray) => {
   let domString = "";
   fancyArray.forEach ((animal) =>{
-    domString += `<div class="animal">`;
+    if(animal.isCarnivore){
+      domString += `<div class="animal carnivore">`;
+    } else {
+      domString += `<div class="animal vegetable">`;
+    }
     domString +=    `<h1>${animal.name}</h1>`;
     domString +=    `<h3>${animal.number}</h3>`;
     domString +=    `<img src="${animal.imageUrl}">`;
