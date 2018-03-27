@@ -1,0 +1,109 @@
+{
+  "animals":[
+    {
+      "name": "BLUE POISON ARROW FROG",
+      "type": "Amphibians",
+      "number": "21",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_frogs.jpg"
+    },
+    {
+      "name": "AFRICAN CLAWED FROG",
+      "type": "Amphibians",
+      "number": "26",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_golden-frog-katie-gregory.jpg"
+    },
+      {
+      "name": "PANAMANIAN GOLDEN FROG",
+      "type": "Amphibians",
+      "number": "11",
+      "isCarnivore": false,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_frogs.jpg"
+    },
+    {
+      "name": "ANDEAN GOOSE",
+      "type": "Birds",
+      "number": "16",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_andean-geese-web.jpg"
+    },
+    {
+      "name": "CARIBBEAN FLAMINGO",
+      "type": "Birds",
+      "number": "22",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_flamingo9.jpg"
+    },
+    {
+      "name": "CASSOWARY",
+      "type": "Birds",
+      "number": "33",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/cassowary8.jpg"
+    },
+    {
+      "name": "BLUE DISCUS",
+      "type": "Fish",
+      "number": "44",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_discus-web.jpg"
+    },
+    {
+      "name": "BLUE TANG SURGEON FISH",
+      "type": "Fish",
+      "number": "34",
+      "isCarnivore": false,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_blue-tang-surgeonfish.jpg"
+    },
+    {
+      "name": "BLUEHEAD WRASSE",
+      "type": "Fish",
+      "number": "43",
+      "isCarnivore": false,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_bluehead-wrasse-web.jpg"
+    },
+    {
+      "name": "AFRICAN-CRESTED PORCUPINE",
+      "type": "Mammals",
+      "number": "4",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_porcupoine_-_amiee.jpg"
+    },
+    {
+      "name": "ALPACA",
+      "type": "Mammals",
+      "number": "7",
+      "isCarnivore": false,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_alpaca1.jpg"
+    },
+    {
+      "name": "BAIRD'S TAPIR",
+      "type": "Mammals",
+      "number": "5",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_tapir5.jpg"
+    },
+    {
+      "name": "DWARF CAIMAN",
+      "type": "Reptiles",
+      "number": "8",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_dwarf_caiman_-_sperka.jpg"
+    },
+    {
+      "name": "AMERICAN ALLIGATOR",
+      "type": "Reptiles",
+      "number": "10",
+      "isCarnivore": true,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_alligator8.jpg"
+    },
+    {
+      "name": "ALDABRA TORTOISE",
+      "type": "Reptiles",
+      "number": "3",
+      "isCarnivore": false,
+      "imageUrl": "https://www.speakcdn.com/assets/2147/12_koraline_-_aldabra_-_katie_gregory.jpg"
+    }
+  ]
+}
