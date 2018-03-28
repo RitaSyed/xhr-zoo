@@ -63,6 +63,20 @@ const initializeFoundButton = () => {
   });
 }
 
+const initializeEatmeButtons = () => {
+  const eatMeButtons = document.getElementsByClassName("eat-me");
+  for(let n=0; n<eatMeButtons.length; n++){
+    eatMeButtons[n].addEventListener("click", itsAlreadyBeenEaten);
+  }
+}
+
+const itsAlreadyBeenEaten = (e) => {
+  let currentNumber = e.target.parentNode.parentNode.children[1].innerHTML;
+  const newNumber = (currentNumber*1) -1;
+  e.target.parentNode.parentNode.children[1].innerHTML = newNumber;
+
+}
+
 const showCarnivores = () => {
   const carnivores = document.getElementsByClassName("carnivore");
   for(let j=0; j<carnivores.length; j++){
@@ -74,10 +88,12 @@ const showCarnivores = () => {
 const showVegetables = () => {
   const vegetables = document.getElementsByClassName("vegetable");
   for(let k=0; k<vegetables.length; k++){
-    vegetables[k].children[3].innerHTML = `<button class="eatMe">EAT ME!</button>`;
+    vegetables[k].children[3].innerHTML = `<button class="eat-me">EAT ME!</button>`;
     vegetables[k].classList.add("green");
   }
+  initializeEatmeButtons();
 };
+
 
 
 
